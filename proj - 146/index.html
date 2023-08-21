@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #000000">
+
+      <a-sky color="#ECECEC"></a-sky>
+      <a-box height = "1.2" width="1.2" position="3.4 1.5 -3" rotation="0 0 0" color="#4CC3D9"></a-box>
+      <a-box height="0.8" width="0.8" position="3.4 2.7 -3" rotation="0 0 0" color="green"></a-box>
+      <a-sphere position="3.2 2.8 -2.5" radius="0.085" color="white"></a-sphere>
+      <a-sphere position="3.6 2.8 -2.5" radius="0.085" color="white"></a-sphere>
+
+      
+      <a-entity position="3.15 2.8 -2.45" animation="property:position; dir:alternate; to:3.25 2.8 -2.45; easing:linear; loop:true; dur:500"> <a-sphere position="0 0 0" radius="0.04" color="black"> </a-sphere> </a-entity>
+      
+      
+      
+      <a-entity position="3.55 2.8 -2.45" animation="property:position; dir:alternate; to:3.65 2.8 -2.45; easing:linear; loop:true; dur:500"> <a-sphere position="0 0 0" radius="0.04" color="black"> </a-sphere> </a-entity>
+    
+
+      <a-cylinder position="3.1 0.75 -3" radius="0.12" height="1" color="#FFC65D"></a-cylinder>
+      <a-cylinder position="3.7 0.75 -3" radius="0.12" height="1" color="#FFC65D"></a-cylinder>
+      <a-cylinder position="3.4 2 -3" radius="0.1" height="0.5" color="red"></a-cylinder>
+      <a-cylinder position="3.4 3.5 -3" radius="0.05" height="0.5" color="yellow"></a-cylinder>
+
+      <a-entity position="3.4 3.8 -3" animation = "property:rotation;to:0 360 0;easing:linear;loop:true;dur:2000">
+      <a-cylinder position="0 0 0" radius="0.05" height="0.5" color="yellow" rotation="100 80 0"></a-cylinder>
+      </a-entity>
+
+      <a-cylinder position="2.8 1.5 -3" radius="0.08" height="0.8" color="red" rotation="80 80 0"></a-cylinder>
+      <a-cylinder position="4.1 1.5 -3" radius="0.08" height="0.8" color="red" rotation="100 50 0"></a-cylinder>
+      <a-plane position="4 0 -4" rotation="-90 0 0" width="7" height="7" color="#7BC8A4"></a-plane>
+      <a-torus rotation="360 10 360" position="3.4 2.55 -2.4" color="yellow" arc="-180" radius="0.1" radius-tubular="0.01"></a-torus>
+      
+      
+      
+      
+    </a-scene>
+</body>
+
+</html>
